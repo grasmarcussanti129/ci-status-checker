@@ -1,0 +1,16 @@
+{
+  "name": "ci-status-checker",
+  "version": "1.0.0",
+  "description": "A CLI tool to check the status of CI pipelines.",
+  "main": "index.js",
+  "bin": {
+    "ci-status-checker": "index.js"
+  },
+  "dependencies": {
+    "commander": "^8.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "MIT"
+}
