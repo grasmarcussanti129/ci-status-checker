@@ -12,4 +12,12 @@ program
     // Implement tracking logic here
   });
 
+program
+  .command('help')
+  .description('Display help information')
+  .action(() => {
+    console.log('Example usage:');
+    console.log('  cli-tool --repo https://github.com/user/repo --provider circleci');
+  });
+
 program.parse(process.argv);
