@@ -4,7 +4,7 @@ const program = require('commander');
 
 program
   .version('1.0.0')
-  .description('Command Line Interface for checking CI Status')
+  .description('CLI tool for monitoring Continuous Integration (CI) status')
   .option('--repo <repo>', 'Repository URL')
   .option('--provider <provider>', 'CI Provider')
   .action((options) => {
